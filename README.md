@@ -54,9 +54,7 @@ conda create -n 3D-Gaussian-Splatting python=3.10
 
 #### 2.2.3.Colmap 
 
-`Colmap`的安装可以从下面的[官网](https://github.com/colmap/colmap/releases/tag/3.8)安装`COLMAP-3.8-windows-cuda.zip`，然后将其解压到本地的任意路径，只要之后能找到即可。也可以通过[压缩包](链接：https://pan.baidu.com/s/10K82B8Dhum5bSfWJ9zeJ-w?pwd=0325 
-提取码：0325 
---来自百度网盘超级会员V1的分享)下载
+`Colmap`的安装可以从下面的[官网](https://github.com/colmap/colmap/releases/tag/3.8)安装`COLMAP-3.8-windows-cuda.zip`，然后将其解压到本地的任意路径，只要之后能找到即可。也可以通过[压缩包](链接：https://pan.baidu.com/s/10K82B8Dhum5bSfWJ9zeJ-w?pwd=0325 )下载
 
 随后将`Colmap`文件下的`COLMAP.bat`添加到系统变量中。运行下面代码，如果能正常启动，则说明添加成功
 
