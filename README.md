@@ -42,7 +42,7 @@ conda create -n 3D-Gaussian-Splatting python=3.10
 
 下载这个的原因是因为在代码中有设计到`CUDA_HOME`的环境变量，因此必须保证该环境变量被正确的添加到了`Path`中
 
-![logo](assets/CUDA 12.1  #该CUDA版本请从Nvidia官网下载.png)
+![logo](assets/CUDA 12.1.png)
 
 #### 2.2.2.Visual Studio 2022 
 
