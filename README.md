@@ -18,7 +18,7 @@ git clone https://github.com/graphdeco-inria/gaussian-splatting --recursive
 
 有一些人可能直接会在本地文件夹下直接右键`Git here`后开启`Git`终端然后运行上面的语句
 
-<img src="C:\Users\YhuoyuH\AppData\Roaming\Typora\typora-user-images\image-20240509163118814.png" alt="image-20240509163118814" style="zoom:40%;" />
+<img src="assets/利用Git Bash 进行克隆.png" alt="logo" style="zoom: 40%;" />
 
 这样做可能会导致因为网络问题而无法克隆所有的仓库，因此你会在后面运行依赖安装指令的时候出现错误
 
@@ -42,13 +42,13 @@ conda create -n 3D-Gaussian-Splatting python=3.10
 
 下载这个的原因是因为在代码中有设计到`CUDA_HOME`的环境变量，因此必须保证该环境变量被正确的添加到了`Path`中
 
-<img src="C:\Users\YhuoyuH\AppData\Roaming\Typora\typora-user-images\image-20240509170420683.png" alt="image-20240509170420683" style="zoom:70%;" />
+![logo](assets/CUDA 12.1  #该CUDA版本请从Nvidia官网下载.png)
 
 #### 2.2.2.Visual Studio 2022 
 
 需要下载下图所选的开发包。安装这个的原因是该项目是`Cu，C++以及Python`共同开发，因此需要保证你的本地可以运行C++
 
-<img src="C:\Users\YhuoyuH\AppData\Roaming\Typora\typora-user-images\image-20240509170522181.png" alt="image-20240509170522181" style="zoom:80%;" />
+<img src="assets/Visual Studio 2022 .png" alt="logo" style="zoom: 67%;" />
 
 #### 2.2.3.Colmap 
 
@@ -68,7 +68,7 @@ E:\COLMAP\COLMAP.bat
 
 从[官网](https://www.gyan.dev/ffmpeg/builds/)下载，并解压到任意路径即可，也可通过[压缩包](https://pan.baidu.com/s/1ZZFcW0RdoGcE3qVm5lGpZQ?pwd=0325)下载
 
-![image-20240509173153065](C:\Users\YhuoyuH\AppData\Roaming\Typora\typora-user-images\image-20240509173153065.png)
+<img src="assets/ffmpeg.png" alt="logo" style="zoom:50%;" />
 
 安装完后需要将`E:\ffmpeg\bin`添加到环境变量`Path`中，运行下面的代码确保你添加成功了
 
